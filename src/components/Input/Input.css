@@ -1,0 +1,20 @@
+.form-control {
+  outline: none;
+  border-color: #ccc;
+  background-color: #fff;
+  font: inherit;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+.form-control.hasError {
+  border-color: red;
+}
+.form-group label {
+  text-transform: capitalize;
+}
+.form-group.hasError label {
+  color: red;
+}

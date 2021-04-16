@@ -1,0 +1,41 @@
+.order{
+  -webkit-box-shadow: 0px 0px 18px 2px rgba(191,189,191,1);
+  -moz-box-shadow: 0px 0px 18px 2px rgba(191,189,191,1);
+  box-shadow: 0px 0px 18px 2px rgba(191,189,191,1);
+overflow: hidden;
+padding-right: 20px;
+}
+
+.order-contact{
+  position: relative;
+}
+ span {
+  font-weight: 300;
+}
+a{
+  text-decoration: none;
+  color:black
+}
+a:hover{
+  color: black;
+}
+img{
+  object-fit: cover;
+}
+
+.order-contact::after{
+  content: '';
+  height: 1px;
+  background-color: #cfcdcd;
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+.name{
+  font-weight: 400;
+}
+.quantity{
+  font-weight: 200;
+  font-size: 14px;
+}

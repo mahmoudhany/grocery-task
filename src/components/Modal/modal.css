@@ -1,0 +1,26 @@
+.review{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.review h3{
+  text-align: center;
+}
+.stars{
+display: flex ;
+justify-content: center ;
+margin: 20px 0;
+}
+.message{
+  resize: none;
+}
+
+.action-btns{
+margin-top: 10px;
+display: flex;
+justify-content: center;
+}
+.action-btns .btn { 
+  margin-right: 10px;
+}
