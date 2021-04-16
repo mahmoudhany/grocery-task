@@ -1,7 +1,7 @@
 import { Route, Switch } from 'react-router';
 import OrderForm from './components/OrderForm'
 import Orders from './pages/orders'
-import './app.css'
+import './style/app.css'
 import SingleOrder from './components/SingleOrder';
 import Navbar from './components/Navbar';
 
